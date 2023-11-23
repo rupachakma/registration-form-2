@@ -1,0 +1,91 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    background-color: rgb(234, 234, 232);
+    padding: 0 10%;
+}
+.header-image{
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    width: 13%;
+}
+.nav{
+    border-top: 2px solid rgb(219, 208, 208);
+    height: 30px;
+    width: 100%;
+    background-color: rgb(244, 240, 240);
+}
+.nav-item{
+    display: flex;
+    height: 30px;
+    width: 80%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.nav-link{
+    padding: 5px 10px;
+}
+.nav-link:hover{
+    background-color: rgb(231, 221, 221);
+    transition-duration: .5s;
+}
+.form-title{
+    margin-top: 10px;
+    padding: 5px;
+    background-color:rgb(250, 247, 247);
+    border-bottom: 1px solid rgb(188, 174, 174);
+    color: rgb(255, 128, 0);
+}
+.devider{
+    border: none;
+    border-top: 1px dashed rgb(188, 174, 174);;
+}
+.left-form-wrapper{
+    width: 55%;
+    border-right: 1px solid rgb(188, 174, 174);
+}
+.left-form{
+    padding: 0 50px 0 10px;
+}
+table{
+    padding-bottom: 10px;
+  
+}
+select{
+    padding:0 32px;
+}
+.check{
+    display: flex;
+    gap: 15px;
+}
+
+.input-field{
+    margin: 5px;
+}
+input[type=text],[type=email]{
+    width: 100%;
+    padding: 2px 20px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid rgb(188, 174, 174);
+}
+.form-label {
+    width: 100%;
+    padding: 2px 20px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid rgb(188, 174, 174);
+}
+fieldset{
+    border: 1px solid rgb(188, 174, 174);
+}

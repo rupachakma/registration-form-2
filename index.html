@@ -137,23 +137,15 @@
                                 </table>
                               </fieldset>
                         </div>
-                        <div class="check">
-                            <label for="gender">Gender:*</label>
-                            <div  class="input-field">
+                        <div class="input-field">
+                            <label for="gender">Gender :*</label>
                                 <input type="radio" name="gender" value="Male">Male
-                            </div>
-                            <div  class="input-field">
                                 <input type="radio" name="gender" value="Female">Female
-                            </div>
                         </div>
-                        <div class="check">
-                            <label for="physical-check">Physically Handicapped:*</label>
-                            <div  class="input-field">
+                        <div class="input-field">
+                            <label for="physical-check">Physically Handicapped :*</label>
                                 <input type="radio" name="physical-check" value="Yes">Yes
-                            </div>
-                           <div  class="input-field">
                             <input type="radio" name="physical-check" value="No">No
-                           </div>
                         </div>
                         <div  class="input-field">
                             <label for="email">Email*</label><br>
@@ -169,6 +161,87 @@
                 </div>
                 <!-- end left form -->
                 <!-- start right form -->
+                <div class="right-form-wrapper">
+                    <div class="right-form">
+                        <div class="input-field">
+                            <label for="identification-type">Identification Type*</label><br>
+                            <select name="identification-type" class="form-label" id="identification-type">
+                                <option value="select one">--Select One--</option>
+                                <option value="Birth-cert">Birth Certificate No</option>
+                                <option value="national-id">National Id</option>
+                                
+                            </select><br>
+                            <small>Identification No. (Must be 10 digits for new NID or 17 digits for old NID. If your National ID is 13 digits, then please add your birth year with the ID as prefix. Example: 1980XXXXXXXXXXXXX)*</small>
+                            <input type="text">
+                        </div>
+                        <div class="input-field">
+                            <label for="home-district">Home District*</label><br>
+                            <select name="home-district" class="form-label" id="home-district">
+                            <option value="select one">--Select One--</option>
+                            <option value="gazipur">Gazipur</option>
+                            <option value="chittagong">Chittagong</option>
+                            <option value="khagrachari">Khagrachari</option>
+                            <option value="kulna">Kulna</option>
+                            <option value="shylet">Shylet</option>
+                            <option value="hobiganj">Hobiganj</option>
+                            <option value="bandarban">Bandarban</option>
+                        </select>
+                        </div>
+                        <div class="input-field">
+                            <label for="upazila">Upazila*</label><br>
+                            <select name="upazila" class="form-label" id="upazila">
+                            <option value="select one">--Select One--</option>
+                            <option value="gazipur">Gazipur</option>
+                            <option value="chittagong">Chittagong</option>
+                            <option value="khagrachari">Khagrachari</option>
+                            <option value="kulna">Kulna</option>
+                            <option value="shylet">Shylet</option>
+                            <option value="hobiganj">Hobiganj</option>
+                            <option value="bandarban">Bandarban</option>
+                        </select>
+                        </div>
+                        <div  class="input-field">
+                            <label for="address">Village/House Bo/Road No/Other Alternative*</label><br>
+                            <input type="text" value="">
+                        </div>
+                        <div  class="input-field">
+                            <label for="post-office">Post Office*</label><br>
+                            <input type="text" value="">
+                        </div>
+                        <div class="input-field">
+                            <label for="qualification">Educational Qualification* <small>(Higher level)</small></label><br>
+                            <select name="qualification" class="form-label" id="qualification">
+                            <option value="select one">--Select One--</option>
+                            <option value="Hsc">Higher Secondary</option>
+                            <option value="bachelor">Bachelor</option>
+                            <option value="master">Master</option>
+                            <option value="phd">Phd</option>
+                            
+                        </select>
+                    </div>
+                    <div class="input-field">
+                        <label for="computer">Have any Computer :*</label>
+                        <input type="radio" name="computer" value="Yes">Yes
+                        <input type="radio" name="computer" value="No">No
+                    </div>
+                    <div class="input-field">
+                        <label for="image">Photograph*</label>
+                        <div>
+                            <input type="file">
+                        </div>
+                        <small>(File type must be jpg or jpeg or png. Maximum file size 2 mb.)</small>
+                    </div>
+                    <div class="input-field">
+                        <label for="sign">Signature*</label>
+                        <div>
+                            <input type="file">
+                        </div>
+                        <small>(File type must be jpg or jpeg or png. Maximum file size 2 mb.)</small>
+                    </div>
+                    <div class="input-field">
+                        <button type="submit">Submit Data</button>
+                    </div>
+                </div>
                 
             </div>
 
